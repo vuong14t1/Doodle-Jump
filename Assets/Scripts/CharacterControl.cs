@@ -10,10 +10,14 @@ public class CharacterControl : MonoBehaviour
     private float forceHorizontal = 500f;
     private Vector2 directionHorizontal = Vector2.zero;
 
+    public Transform pointItemAhead;
+    public Transform pointItemBehind;
     public Animator animator;
+    [SerializeField]
+    public GameObject itemRocket;
+    public GameObject itemPinWheel;
     private void Awake() {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
     }
     // Start is called before the first frame update
     void Start()
@@ -49,12 +53,21 @@ public class CharacterControl : MonoBehaviour
         directionHorizontal = dir;
     }
 
+    public void excuteRocket() {
+        GameObject item = Instantiate(itemRocket, pointItemBehind.position, Quaternion.identity);
+        item.transform.parent = pointItemBehind;
+        item.GetComponent<ItemRocket>().excute();
+    }
+
+    public void excutePinWheel () {
+        GameObject item = Instantiate(itemPinWheel, pointItemAhead.position, Quaternion.identity);
+        item.transform.parent = pointItemAhead;
+        item.GetComponent<ItemPinWheel>().excute();
+    }
+
 
     public void updateReachBound() {
-        Camera cam = Camera.main;
-        float height = 2f * cam.orthographicSize;
-        float width = height * cam.aspect;
-        if(Mathf.Abs(transform.position.x) >= width / 2 + 0.1f){
+        if(Mathf.Abs(transform.position.x) >= CameraFollow.width / 2 + 0.1f){
             transform.position = new Vector2(-(transform.position.x), transform.position.y);
         }
     }

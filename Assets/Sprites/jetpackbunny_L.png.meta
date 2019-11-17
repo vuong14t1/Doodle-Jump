@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 3e994ebf7ed4dc44fa1f92fd8a9372d2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2884797857868527361
+    second: jetpackbunny_L_0
+  - first:
+      213: 230709097998952387
+    second: jetpackbunny_L_1
+  - first:
+      213: 3951435134329929131
+    second: jetpackbunny_L_2
+  - first:
+      213: 2929235860329850829
+    second: jetpackbunny_L_3
+  - first:
+      213: -3419735200899519763
+    second: jetpackbunny_L_4
+  - first:
+      213: -8622468924535682550
+    second: jetpackbunny_L_5
+  - first:
+      213: 3732770921584012529
+    second: jetpackbunny_L_6
+  - first:
+      213: -7632086750998236784
+    second: jetpackbunny_L_7
+  - first:
+      213: 3094287522271840789
+    second: jetpackbunny_L_8
+  - first:
+      213: -8854628314798882248
+    second: jetpackbunny_L_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +100,243 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jetpackbunny_L_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 221
+        width: 17
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9364b2ecceb20094db82b7ea8d36a2a0
+      internalID: -2884797857868527361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 216
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b44aac81d55a64eb552132f974fc6a
+      internalID: 230709097998952387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 213
+        width: 17
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f40f838232ddd4d81e9c33905d79d0
+      internalID: 3951435134329929131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 190
+        width: 30
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3f4f885961316439c926e261c74022
+      internalID: 2929235860329850829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 92
+        width: 38
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf19b6c331569e478825bd0ba5da2ee
+      internalID: -3419735200899519763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 94
+        width: 34
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a558b4cf226e2458d8511ef3eafa55
+      internalID: -8622468924535682550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 110
+        width: 18
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5044c4780c814448730b35bbf2f40c
+      internalID: 3732770921584012529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 119
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbe2a4798f661f4e8164a103aab10d0
+      internalID: -7632086750998236784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79554b0b2a65f1a45995fd53a0e2acf8
+      internalID: 3094287522271840789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jetpackbunny_L_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 36
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fcdb463f4b47b4da570fc151558c97
+      internalID: -8854628314798882248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

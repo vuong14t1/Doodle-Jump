@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    public static float height;
+    public static float width;
+    private void Awake() {
+        Camera cam = Camera.main;
+        height = 2f * cam.orthographicSize;
+        width = height * cam.aspect;
+    }
     public Transform character;
     // Start is called before the first frame update
     void Start()
@@ -20,8 +27,6 @@ public class CameraFollow : MonoBehaviour
     public void followCharacter() {
         if(character.position.y >= transform.position.y) {
             transform.position =  new Vector3(transform.position.x, character.position.y, transform.position.z);
-            Debug.Log("vao day");
-            // transform.Translate(Vector2.up, (character.position.y - transform.position));
         }
     }
 }
